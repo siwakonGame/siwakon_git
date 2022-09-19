@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, total = 0;
+    
+    cout << "Please input number 1 : ";
+    cin >> a;
+    
+    cout << "Please input number 2 : ";
+    cin >> b;
+    
+    total = a + b;
+    cout << a << " + " << b << " = " << total;
+    
+    return 0;
+}
